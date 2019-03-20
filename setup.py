@@ -11,7 +11,7 @@ setup(
     description="Python client for Firebase Dynamic Links API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    maintainer="danielvilar2@gmail.com",
+    maintainer="Daniel Vilar Peiteado",
     maintainer_email="danielvilar2@gmail.com",
     keywords=["firebase", "dynamic links", "url shortener"],
     url="https://github.com/dpeite/py-firebase-dynamic-links",
@@ -24,5 +24,10 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    install_requires=["requests"]
+    install_requires=["requests"],
+    project_urls={
+        'Bug Reports': 'https://github.com/dpeite/py-firebase-dynamic-links/issues',
+        'Source': 'https://github.com/dpeite/py-firebase-dynamic-links',
+    },
+
 )
