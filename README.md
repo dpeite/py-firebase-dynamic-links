@@ -6,7 +6,7 @@ use a custom domain and fields for generate links for android and ios.
 
 ### Requirements
 
-* Python >= 3.6
+* Python >= 3.4
 * PIP
 * API Key from [Firebase console Settings page](https://console.firebase.google.com/project/_/settings/general/).
 

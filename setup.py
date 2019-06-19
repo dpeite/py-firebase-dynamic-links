@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="py-firebase-dynamic-links",
-    version="1.0.0",
+    version="1.0.1",
     author="Daniel Vilar Peiteado",
     author_email="danielvilar2@gmail.com",
     description="Python client for Firebase Dynamic Links API",

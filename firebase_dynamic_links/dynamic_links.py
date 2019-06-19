@@ -16,13 +16,13 @@ class DynamicLinks:
         payload = {
             "dynamicLinkInfo": {
                 "domainUriPrefix": self.domain,
-                "link": link,
-                **params
+                "link": link
             },
             "suffix": {
                 "option": "SHORT" if short else "UNGUESSABLE"
             }
         }
+        payload['dynamicLinkInfo'].update(params)
 
         response = requests.post(self.api_url, json=payload, timeout=self.timeout)
 
